@@ -3,8 +3,6 @@ layout: post
 title: How to convert socks5 proxy to a HTTP proxy
 date: 2016-07-22
 ---
-
-
 Install polipo
 --------------
 
