@@ -3,12 +3,12 @@ layout: post
 title: How to convert socks5 proxy to a HTTP proxy
 date: 2016-07-22
 ---
-1. Install polipo
+Install polipo
 -----------------
 
 [Polipo](https://www.irif.univ-paris-diderot.fr/~jch/software/polipo/) is a small and fast caching web proxy.
 
-2. configure and run polipo
+configure and run polipo
 ---------------------------
 
 ```sh
@@ -20,7 +20,7 @@ proxyPort = 8123
 # polipo &
 ```
 
-3. Play with the HTTP proxy
+Play with the HTTP proxy
 ----------------------------
 
 ```sh
