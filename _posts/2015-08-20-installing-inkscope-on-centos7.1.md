@@ -4,9 +4,8 @@ title: inkscope在CentOS 7.1上安装部署指南
 ---
 inkscope是一个Ceph管理和监视工具，它的功能依赖于Ceph提供的API，使用mongodb存储实时采集到的数据和历史数据。项目首页：<https://github.com/inkscope>
 
-
-1. 软件包介绍
--------------
+软件包介绍
+----------
 - inkscope-sysprobe
 
   用于收集Ceph节点主机的系统信息，需要在所有Ceph节点上安装，包括mon和osd。
@@ -39,8 +38,8 @@ inkscope是一个Ceph管理和监视工具，它的功能依赖于Ceph提供的A
     inkscope-common-1.2.0-0.noarch.rpm,  
     inkscope-sysprobe-1.2.0-0.noarch.rpm
 
-2. 安装策略 
------------
+安装策略 
+--------
 
 本文档描述在如下Ceph集群环境下安装inkscope：
 
@@ -58,8 +57,8 @@ OSD节点主机：osd1, osd2
 
 在所有主机上安装inkscope-common和inkscope-sysprobe。
 
-3. 安装inkscope-cephrestapi和inkscope-cephprobe
------------------------------------------------
+安装inkscope-cephrestapi和inkscope-cephprobe
+--------------------------------------------
 
 以下安装操作在mon2节点上进行。
 
@@ -100,8 +99,8 @@ chkconfig ceph-rest-api on
 service ceph-rest-api start
 ```
 
-4. 安装web管理控制台
---------------------
+安装web管理控制台
+-----------------
 
 以下安装操作在admin2管理主机上进行。
 
@@ -149,7 +148,3 @@ pip install flask
 ```sh
 yum -y install inkscope-admviz-1.2.0-0.noarch.rpm inkscope-common-1.2.0-0.noarch.rpm inkscope-sysprobe-1.2.0-0.noarch.rpm
 ```
-
-
-
-

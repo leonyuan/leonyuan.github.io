@@ -2,8 +2,8 @@
 layout: post
 title: KVM 在CentOS 7.1上安装、配置、操作指南
 ---
-1. 介绍
--------
+介绍
+----
 
 KVM是基于linux内核的虚拟化管理程序，在centos7中默认集成。
 
@@ -24,8 +24,8 @@ egrep 'vmx|svm' /proc/cpuinfo --color=always
 - vmx：intel 平台的虚拟化特性
 - svm: amd 平台的虚拟化特性
 
-2. 安装
--------
+安装
+----
 
 ### 2.1 安装KVM软件包
 
@@ -39,8 +39,8 @@ yum -y install qemu-kvm libvirt libvirt-python libguestfs-tools virt-install
 systemctl enable libvirtd && systemctl start libvirtd 
 ```
 
-3. 配置
--------
+配置
+----
 
 ### 3.1 网络配置
 
@@ -71,8 +71,8 @@ HWADDR=00:1d:60:a2:c1:3c
 BRIDGE=br0
 ```
 
-4. 操作 
--------
+操作 
+----
 
 ### 4.1 创建vm
 
@@ -163,8 +163,3 @@ virsh define name_of_vm.xml
 ```sh
 virsh start new_name_of_vm
 ```
-
-
-
-
-
