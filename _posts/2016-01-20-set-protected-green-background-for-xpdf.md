@@ -24,3 +24,11 @@ bind ctrl-f any pageDown
 bind ctrl-b any pageUp
 bind G any gotoLastPage
 ```
+
+## Load .Xdefaults automatically at system startup
+
+You need place following statement to .bash_profile or .bashrc for appropriate user.
+
+```sh
+xrdb -load ~/.Xdefaults
+```
