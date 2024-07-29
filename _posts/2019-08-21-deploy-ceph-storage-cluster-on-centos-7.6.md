@@ -1,5 +1,7 @@
-Deploy Ceph storage cluster on CentOS 7.6
-=========================================
+---
+layout: post
+title: Deploy Ceph storage cluster on CentOS 7.6
+---
 
 ## 1. Introduction
 This documentation describes how to install ceph and deploy ceph storage cluster on CentOS Linux release 7.6.

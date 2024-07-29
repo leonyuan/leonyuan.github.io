@@ -1,5 +1,7 @@
-Deploy eacloud on CentOS 7.6
-============================
+---
+layout: post
+title: Deploy eacloud on CentOS 7.6
+---
 
 ## 1. Introduction
 Eacloud is a cloud disk application suite for company user. It's based on Ceph object storage. There must be a running Ceph cluster before deploy eacloud server. Please refer to the documentation `deploy-ceph-storage-cluster-on-centos-7.6.pdf` to deploy a Ceph cluster if there is not a Ceph cluster. 

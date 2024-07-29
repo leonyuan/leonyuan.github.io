@@ -1,5 +1,7 @@
-Deployment ceph cluster within docker
-============================================
+---
+layout: post
+title: Deployment ceph cluster within docker
+---
 
 ### Create specific network for ceph nodes
 ```
