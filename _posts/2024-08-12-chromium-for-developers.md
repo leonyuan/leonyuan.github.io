@@ -41,7 +41,7 @@ title: For Developers
     -   [SlickEdit](https://www.chromium.org/developers/slickedit-editor-notes)
     -   [Sublime Text](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/sublime_ide.md)
     -   [Visual Studio Code](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/vscode.md)
--   [Learning your way around the code](/blogs/2024/08/13/learning-your-way-around-the-code)
+-   [Learning your way around the code](/blog/2024/08/13/learning-your-way-around-the-code)
 -   [Guide to Important Libraries, Abstractions, and Data Structures](https://www.chromium.org/developers/libraries-guide)
     -   [Important Abstractions and Data Structures](https://www.chromium.org/developers/coding-style/important-abstractions-and-data-structures)
     -   [Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines)
@@ -160,7 +160,7 @@ See also: All  [How-tos](https://www.chromium.org/developers/how-tos).
 
 Design documents
 
--   [Getting around the source code directories](/blogs/2024/08/13/getting-around-the-chromium-source-code)
+-   [Getting around the source code directories](/blog/2024/08/13/getting-around-the-chromium-source-code)
 -   [Tech Talks: Videos & Presentations](https://www.chromium.org/developers/tech-talk-videos)
 -   [Engineering design docs](https://www.chromium.org/developers/design-documents)
 -   [User experience design docs](https://www.chromium.org/user-experience)
