@@ -3,24 +3,24 @@ layout: post
 title: For Developers
 ---
 
-#### [_See also: docs in the source code -_](https://www.chromium.org/developers/#see-also-docs-in-the-source-code-httpschromiumgooglesourcecomchromiumsrcheaddocsreadmemd) _[https://chromium.googlesource.com/chromium/src/+/HEAD/docs/README.md](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/README.md)_
+#### _See also: docs in the source code - [https://chromium.googlesource.com/chromium/src/+/HEAD/docs/README.md](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/README.md)
 
-### [Start here](https://www.chromium.org/developers/#start-here)
+### Start here
 
 -   [Get the Code: Checkout, Build, & Run](https://www.chromium.org/developers/how-tos/get-the-code)
 -   [Contributing code](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/contributing.md)
 
-### [How-tos](https://www.chromium.org/developers/#how-tos)
+### How-tos
 
-#### [_Note that some of these guides are out-of-date._](https://www.chromium.org/developers/#note-that-some-of-these-guides-are-out-of-date)
+#### _Note that some of these guides are out-of-date.
 
-#### [Getting the Code](https://www.chromium.org/developers/#getting-the-code)
+#### Getting the Code
 
 -   [Quick reference](https://www.chromium.org/developers/quick-reference)  of common development commands.
 -   Look at our  [Git Cookbook](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/git_cookbook.md)  for a helpful walk-through, or the  [Fast Intro to Git Internals](https://www.chromium.org/developers/fast-intro-to-git-internals)  for a background intro to git.
 -   [Changelogs for Chromium and Blink](https://www.chromium.org/developers/change-logs).
 
-#### [Development Guides](https://www.chromium.org/developers/#development-guides)
+#### Development Guides
 
 -   Debugging on  [Windows](https://www.chromium.org/developers/how-tos/debugging-on-windows),  [Mac OS X](https://www.chromium.org/developers/how-tos/debugging-on-os-x),  [Linux](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/debugging.md)  and  [Android](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/android_debugging_instructions.md).
 -   [Threading](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/threading_and_tasks.md)
@@ -41,7 +41,7 @@ title: For Developers
     -   [SlickEdit](https://www.chromium.org/developers/slickedit-editor-notes)
     -   [Sublime Text](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/sublime_ide.md)
     -   [Visual Studio Code](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/vscode.md)
--   [Learning your way around the code](https://www.chromium.org/developers/learning-your-way-around-the-code)
+-   [Learning your way around the code](/blogs/2024/08/13/learning-your-way-around-the-code)
 -   [Guide to Important Libraries, Abstractions, and Data Structures](https://www.chromium.org/developers/libraries-guide)
     -   [Important Abstractions and Data Structures](https://www.chromium.org/developers/coding-style/important-abstractions-and-data-structures)
     -   [Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines)
@@ -74,7 +74,7 @@ See also: All  [How-tos](https://www.chromium.org/developers/how-tos).
 -   [Baseline computation and some line layout docs](https://docs.google.com/a/chromium.org/document/d/1OP49xbB-D7A0qKNAwFTOfbDL-1dYxu74Jp38ZKAS6kk/edit)
 -   [Fast Text Autosizer](http://tinyurl.com/fasttextautosizer)
 
-### [Testing and Infrastructure](https://www.chromium.org/developers/#testing-and-infrastructure)
+### Testing and Infrastructure
 
 -   [Tests](https://www.chromium.org/developers/testing)
     -   [Tour of the Chromium Continuous Integration Console](https://www.chromium.org/developers/testing/chromium-build-infrastructure/tour-of-the-chromium-buildbot)
@@ -97,7 +97,7 @@ See also: All  [How-tos](https://www.chromium.org/developers/how-tos).
 -   [Infra documentation](https://chromium.googlesource.com/infra/infra/+/HEAD/doc/index.md)
 -   [Contacting a Trooper](https://chromium.googlesource.com/infra/infra/+/HEAD/doc/users/contacting_troopers.md)
 
-### [Performance](https://www.chromium.org/developers/#performance)
+### Performance
 
 -   [Adding Performance Tests](https://www.chromium.org/developers/testing/adding-performance-tests)
 -   [Telemetry: Performance testing framework](https://www.chromium.org/developers/telemetry)
@@ -112,15 +112,15 @@ See also: All  [How-tos](https://www.chromium.org/developers/how-tos).
     -   [Leak Detection](https://www.chromium.org/developers/leak-detection)
 -   [Perf Sheriffing](https://www.chromium.org/developers/tree-sheriffs/perf-sheriffs)
 
-### [Sync](https://www.chromium.org/developers/#sync)
+### Sync
 
 -   [Sync](https://www.chromium.org/developers/design-documents/sync)
 
-### [**Diagnostics**](https://www.chromium.org/developers/#diagnostics)
+### Diagnostics
 
 -   [Diagnostics](https://www.chromium.org/developers/diagnostics)
 
-### [Documentation hosted in / generated by source code](https://www.chromium.org/developers/#documentation-hosted-in-generated-by-source-code)
+### Documentation hosted in / generated by source code
 
 -   [depot_tools](http://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools.html)
 -   [C++ use in Chromium](http://chromium-cpp.appspot.com/)
@@ -128,7 +128,7 @@ See also: All  [How-tos](https://www.chromium.org/developers/how-tos).
 -   [MB](https://chromium.googlesource.com/chromium/src/+/HEAD/tools/mb#): Meta-build wrapper around both GN and GYP.
 -   [Chrome Infra](https://chromium.googlesource.com/infra/infra/+/HEAD/doc/index.md)
 
-### [Practices](https://www.chromium.org/developers/#practices)
+### Practices
 
 -   [Core Product Principles](https://www.chromium.org/developers/core-principles)
     -   [No Hidden Preferences](https://www.chromium.org/developers/core-principles/no-hidden-preferences)
@@ -160,13 +160,13 @@ See also: All  [How-tos](https://www.chromium.org/developers/how-tos).
 
 Design documents
 
--   [Getting around the source code directories](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code)
+-   [Getting around the source code directories](/blogs/2024/08/13/getting-around-the-chromium-source-code)
 -   [Tech Talks: Videos & Presentations](https://www.chromium.org/developers/tech-talk-videos)
 -   [Engineering design docs](https://www.chromium.org/developers/design-documents)
 -   [User experience design docs](https://www.chromium.org/user-experience)
 -   _Sharing design documents on Google drive: share on Chromium domain_  If on private domain, share with self@chromium.org, then log in with self@chromium.org, click "Shared with Me", right-click "Make a copy", then set the permissions: "Public on the web" or "Anyone with the link", generally "Can comment". It a good idea to then mark your local copy  _(PRIVATE)_  and only edit the public copy.
 
-### [Communication](https://www.chromium.org/developers/#communication)
+### Communication
 
 -   [General discussion groups](https://www.chromium.org/developers/discussion-groups)
 -   [Technical discussion groups](https://www.chromium.org/developers/technical-discussion-groups)
@@ -177,7 +177,7 @@ Design documents
 -   [Public calendar for meetings discussing new ideas](https://www.chromium.org/developers/public-calendar-for-meetings-discussing-new-ideas)
 -   Questions or problems with your Chromium account? Email  [accounts@chromium.org](mailto:accounts@chromium.org).
 
-### [Status](https://www.chromium.org/developers/#status)
+### Status
 
 -   [Status Update Email Best Practices](https://www.chromium.org/developers/status-update-email-best-practices)
 -   [chromestatus.com](http://chromestatus.com/)
@@ -186,11 +186,11 @@ Usage statistics
 
 -   [MD5 certificate statistics](https://www.chromium.org/developers/md5-certificate-statistics)
 
-### [Graphics](https://www.chromium.org/developers/#graphics)
+### Graphics
 
 -   [Graphics overview and design docs](https://www.chromium.org/developers/design-documents/chromium-graphics)
 
-### [External links](https://www.chromium.org/developers/#external-links)
+### External links
 
 -   Waterfalls
     -   [Continuous build](http://build.chromium.org/p/chromium/waterfall)  ([console](http://build.chromium.org/p/chromium/console))
