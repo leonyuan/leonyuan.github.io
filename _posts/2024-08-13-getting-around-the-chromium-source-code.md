@@ -1,19 +1,7 @@
 ---
-title: >-
-  浏览 Chromium 源代码目录结构（Getting Around the Chromium Source Code Directory
-  Structure）
-updated: 2024-07-22 01:00:58Z
-created: 2024-07-07 16:59:12Z
-latitude: 28.22820900
-longitude: 112.93881400
-altitude: 0.0000
+layout: post
+title: 浏览 Chromium 源代码目录（Getting Around the Chromium Source Code Directory）
 ---
-
-# 浏览 Chromium 源代码目录结构
-
-
-[浏览 Chromium 源代码目录结构（Getting Around the Chromium Source Code Directory Structure）.pdf](../_resources/浏览%20Chromium%20源代码目录结构（Getting%20Around%20the%20Chromium%20So.pdf)
-
 
 ## 目录
 

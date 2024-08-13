@@ -1,23 +1,13 @@
 ---
+layout: post
 title: Chromium如何显示网页（How Chromium Displays Web Pages）
-updated: 2024-07-22 01:00:29Z
-created: 2024-07-06 15:40:12Z
-latitude: 28.22820900
-longitude: 112.93881400
-altitude: 0.0000
 ---
-
-# Chromium如何显示网页（How Chromium Displays Web Pages）
-
-
-[Chromium如何显示网页（How Chromium Displays Web Pages）.pdf](../_resources/Chromium如何显示网页（How%20Chromium%20Displays%20Web%20Pages）.pdf)
-
 
 本文档描述了Chromium如何从底层开始显示网页。在阅读本多进程架构[multi-process architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture)设计文档之前，确保您已了解主要组件的方块图。您可能还会对多进程资源加载[multi-process resource loading](https://www.chromium.org/developers/design-documents/multi-process-resource-loading)如何从网络获取页面感兴趣。
 
 ## 概念应用层
 
-![How Chromium Displays Web Pages_ Conceptual application layers.png](../_resources/How%20Chromium%20Displays%20Web%20Pages_%20Conceptual%20applic.png)
+![How Chromium Displays Web Pages_ Conceptual application layers.png]({{ "/assets/images/How%20Chromium%20Displays%20Web%20Pages_%20Conceptual%20applic.png" | absolute_url }})
 
 （此图的原始Google文档是http://goo.gl/MsEJX，任何@chromium.org邮箱的用户均可编辑）
 
@@ -50,7 +40,7 @@ WebKit “glue” 层将Chromium代码库的其余部分与WebCore数据类型�
 “test shell” 应用程序是一个简化的浏览器，用于测试我们的WebKit port和glue代码。它使用与Chromium相同的glue接口与WebKit通信。它为开发人员提供了一种更简单的方式来测试新代码，而无需许多复杂的浏览器功能、线程和进程。该应用程序还用于运行自动化的WebKit测试。然而，“test shell”的缺点是它不像Chromium那样以多进程方式使用WebKit。内容模块嵌入在一个名为“content shell”的应用程序中，它将很快代替“test shell”来运行测试。
 
 ## 渲染进程
-![Renderingintherenderer-v2.png](../_resources/Renderingintherenderer-v2.png)
+![Renderingintherenderer-v2.png]({{ "/assets/images/Renderingintherenderer-v2.png" | absolute_url }})
 
 Chromium的渲染进程使用glue接口嵌入我们的WebKit port。它本身不包含太多代码：其主要任务是充当与浏览器IPC通道的渲染器一侧。
 
@@ -65,7 +55,7 @@ RenderWidget通过实现glue层中的WebWidgetDelegate抽象接口映射到一�
 每个渲染器有两个线程（请参见多进程架构页面的图表，或Chromium中的线程编程方法[threading in Chromium](https://www.chromium.org/developers/design-documents/threading)）。渲染线程是主要对象（如RenderView和所有WebKit代码）运行的地方。当它与浏览器通信时，消息首先发送到主线程，然后由主线程将消息分派到浏览器进程。这使我们能够从渲染器同步地向浏览器发送消息。这用于少数需要浏览器结果才能继续的操作。例如，当JavaScript请求页面的cookies时，渲染器线程会阻塞，主线程会排队所有接收到的消息，直到找到正确的响应。随后接收到的所有消息都会发布到渲染器线程进行正常处理。
 
 ## 浏览器进程
-![rendering browser.png](../_resources/rendering%20browser.png)
+![rendering browser.png]({{ "/assets/images/rendering%20browser.png" | absolute_url }})
 
 ### 低级浏览器进程对象
 
