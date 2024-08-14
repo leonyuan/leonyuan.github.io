@@ -1,15 +1,7 @@
 ---
+layout: post
 title: 内部基于Chromium开源项目定制开发
-updated: 2024-08-11 16:43:10Z
-created: 2024-07-11 08:13:40Z
-latitude: 27.66032060
-longitude: 113.88308060
-altitude: 0.0000
 ---
-
-# 内部基于Chromium开源项目定制开发
-
-[内部基于Chromium开源项目定制开发.pdf](../_resources/内部基于Chromium开源项目定制开发.pdf)
 
 ## 一、准备环境
 

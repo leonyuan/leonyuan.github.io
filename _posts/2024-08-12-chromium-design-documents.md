@@ -3,19 +3,19 @@ layout: post
 title: Design Documents
 ---
 
-## [Start Here: Background Reading](https://www.chromium.org/developers/design-documents/#start-here-background-reading)
+## Start Here: Background Reading
 
 -   [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture): Describes the high-level architecture of Chromium  **Note:**  Most of the rest of the design documents assume familiarity with the concepts explained in this document.
 -   [How Blink works](https://docs.google.com/document/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg)  is a high-level overview of Blink architecture.
 -   The "Life of a Pixel" talk ([slides](http://bit.ly/lifeofapixel)  /  [video](http://bit.ly/loap-2020-video)) is an introduction to Chromium's rendering pipeline, tracing the steps from web content to displayed pixels.
 -   [somewhat outdated]  [How Chromium Displays Web Pages](https://www.chromium.org/developers/design-documents/displaying-a-web-page-in-chrome): Bottom-to-top overview of how WebKit is embedded in Chromium
 
-## [See Also:](https://www.chromium.org/developers/design-documents/#see-also)
+## See Also
 
 -   [Design docs in source code](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/README.md)
 -   [Design doc template](https://docs.google.com/document/d/14YBYKgk-uSfjfwpKFlp_omgUq5hwMVazy_M965s_1KA/edit)
 
-## [General Architecture](https://www.chromium.org/developers/design-documents/#general-architecture)
+## General Architecture
 
 -   [Conventions and patterns for multi-platform development](https://www.chromium.org/developers/design-documents/conventions-and-patterns-for-multi-platform-development)
 -   [Extension Security Architecture](http://webblaze.cs.berkeley.edu/2010/secureextensions/): How the extension system helps reduce the severity of extension vulnerabilities
@@ -33,7 +33,7 @@ title: Design Documents
 
 Also see the documentation for  [V8](http://code.google.com/apis/v8/), which is the JavaScript engine used within Chromium.
 
-## [UI Framework](https://www.chromium.org/developers/design-documents/#ui-framework)
+## UI Framework
 
 -   [UI Development Practices](https://www.chromium.org/developers/design-documents/ui-development-practices): Best practices for UI development inside and outside of Chrome's content areas.
 -   [Views framework](https://www.chromium.org/developers/design-documents/chromeviews): Our UI layout layer used on Windows/Chrome OS.
@@ -87,30 +87,30 @@ Also see the documentation for  [V8](http://code.google.com/apis/v8/), which is 
 -   [Encrypted Partition Recovery](https://www.chromium.org/developers/design-documents/encrypted-partition-recovery)
 -   [XSS Auditor](https://www.chromium.org/developers/design-documents/xss-auditor)
 
-## [Input](https://www.chromium.org/developers/design-documents/#input)
+## Input
 
 -   See  [chromium input](https://www.chromium.org/teams/input-dev)  for design docs and other resources.
 
-## [Rendering](https://www.chromium.org/developers/design-documents/#rendering)
+## Rendering
 
 -   [Multi-column layout](https://www.chromium.org/developers/design-documents/multi-column-layout)
 -   [Style Invalidation in Blink](https://docs.google.com/document/d/1vEW86DaeVs4uQzNFI5R-_xS9TcS1Cs_EUsHRSgCHGu8/)
 -   [Blink Coordinate Spaces](https://www.chromium.org/developers/design-documents/blink-coordinate-spaces)
 
-## [Building](https://www.chromium.org/developers/design-documents/#building)
+## Building
 
 -   [IDL build](https://www.chromium.org/developers/design-documents/idl-build)
 -   [IDL compiler](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/bindings/IDLCompiler.md)
 
 See also the documentation for  [GYP](https://code.google.com/p/gyp/w/list), which is the build script generation tool.
 
-## [Testing](https://www.chromium.org/developers/design-documents/#testing)
+## Testing
 
 -   [Layout test results dashboard](https://www.chromium.org/developers/design-documents/layout-tests-results-dashboard)
 -   [Generic theme for Test Shell](https://www.chromium.org/developers/design-documents/generic-theme-for-test-shell)
 -   [Moving LayoutTests fully upstream](https://www.chromium.org/system/errors/NodeNotFound)
 
-## [Feature-Specific](https://www.chromium.org/developers/design-documents/#feature-specific)
+## Feature-Specific
 
 -   [about:conflicts](https://www.chromium.org/developers/design-documents/about-conflicts)
 -   [Accessibility](https://www.chromium.org/developers/design-documents/accessibility): An outline of current (and coming) accessibility support.
@@ -178,7 +178,7 @@ See also the documentation for  [GYP](https://code.google.com/p/gyp/w/list), whi
 -   [WebNavigation API internals](https://www.chromium.org/developers/design-documents/webnavigation-api-internals)
 -   [Web NFC](https://www.chromium.org/developers/design-documents/web-nfc)
 
-## [OS-Specific](https://www.chromium.org/developers/design-documents/#os-specific)
+## OS-Specific
 
 -   **Android**
     -   [Java Resources on Android](https://www.chromium.org/developers/design-documents/java-resources-on-android)
@@ -205,7 +205,7 @@ See also the documentation for  [GYP](https://code.google.com/p/gyp/w/list), whi
 -   **iOS**
     -   [WKWebView Problems Solved by web// layer](https://docs.google.com/document/d/1qgFVIhUdQf_RxhzF-sAsETvo7CNqSLmzlz5YY7rfRe0/edit)
 
-## [Other](https://www.chromium.org/developers/design-documents/#other)
+## Other
 
 -   [64-bit Support](https://www.chromium.org/developers/design-documents/64-bit-support)
 -   [Layered Components](https://www.chromium.org/developers/design-documents/layered-components-design)

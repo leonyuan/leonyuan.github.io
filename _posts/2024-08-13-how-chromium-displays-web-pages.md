@@ -67,7 +67,8 @@ UI线程上的RenderProcessHost负责将所有视图特定的消息分派到适�
 
 ### 高级浏览器进程对象
 
-视图特定的消息进入RenderViewHost::OnMessageReceived中。大多数消息在此处理，其余的消息会转发给RenderWidgetHost基类。这两个对象映射到渲染器中的RenderView和RenderWidget（见上文“渲染进程”中的定义）。每个平台都有一个视图类（RenderWidgetHostView[Aura|Gtk|Mac|Win]）来实现与本地视图系统的集成。
+视图特定的消息进入`RenderViewHost::OnMessageReceived`中。大多数消息在此处理，其余的消息会转发给RenderWidgetHost基类。
+这两个对象映射到渲染器中的RenderView和RenderWidget（见上文“渲染进程”中的定义）。每个平台都有一个视图类（`RenderWidgetHostView[Aura|Gtk|Mac|Win]`）来实现与本地视图系统的集成。
 
 在RenderView/Widget之上是WebContents对象，大多数消息实际上最终成为该对象上的函数调用。WebContents表示网页的内容。它是内容模块中的顶级对象，负责在矩形视图中显示网页。有关更多信息，请参见内容模块页面[content module pages](https://www.chromium.org/developers/content-module)。
 

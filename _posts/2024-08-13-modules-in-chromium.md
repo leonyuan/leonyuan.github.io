@@ -1,13 +1,7 @@
 ---
+layout: post
 title: chromium项目源代码主要包括哪些模块
-updated: 2024-08-11 16:32:42Z
-created: 2024-08-11 16:30:02Z
-latitude: 28.22820900
-longitude: 112.93881400
-altitude: 0.0000
 ---
-
-[chromium项目源代码主要包括哪些模块.pdf](../_resources/chromium项目源代码主要包括哪些模块.pdf)
 
 Chromium 项目是一个非常庞大的开源项目，包含多个模块，这些模块共同协作来实现浏览器的各种功能。以下是 Chromium 源代码的主要模块及其功能概述：
 

@@ -1,13 +1,7 @@
 ---
+layout: post
 title: 进程间通信 (IPC)
-updated: 2024-08-03 17:41:29Z
-created: 2024-08-03 17:32:59Z
-latitude: 28.22820900
-longitude: 112.93881400
-altitude: 0.0000
 ---
-
-# 进程间通信 (IPC)
 
 ## 目录
 - 概述  
