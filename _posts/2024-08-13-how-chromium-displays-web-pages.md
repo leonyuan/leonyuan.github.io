@@ -7,7 +7,7 @@ title: Chromium如何显示网页（How Chromium Displays Web Pages）
 
 ## 概念应用层
 
-![How Chromium Displays Web Pages_ Conceptual application layers.png]({{ "/assets/images/How%20Chromium%20Displays%20Web%20Pages_%20Conceptual%20applic.png" | absolute_url }})
+![How Chromium Displays Web Pages_ Conceptual application layers.png]({{ "/assets/img/How%20Chromium%20Displays%20Web%20Pages_%20Conceptual%20applic.png" | absolute_url }})
 
 （此图的原始Google文档是http://goo.gl/MsEJX，任何@chromium.org邮箱的用户均可编辑）
 

@@ -19,7 +19,7 @@ Chromium使用多个进程来保护整体应用程序免受渲染引擎或其他
 
 我们将运行UI并管理渲染器及其他进程的主要进程称为“浏览器进程”或“浏览器”。同样，处理网页内容的进程被称为“渲染器进程”或“渲染器”。渲染器使用 [Blink](https://www.chromium.org/blink) 开源布局引擎来解释和布局HTML。
 
-![arch.png]({{ "/assets/images/arch.png" | absolute_url }})
+![arch.png]({{ "/assets/img/arch.png" | absolute_url }})
 
 ### 管理渲染器进程
 
