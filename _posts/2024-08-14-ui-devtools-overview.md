@@ -27,7 +27,7 @@ UI DevTools 允许 UI 开发人员像检查网页一样使用前端 DevTools Ins
 **元素树**
 
 视图、窗口和小部件元素会显示在层次化的元素树中。要展开元素树，右键点击根元素，然后从上下文菜单中选择“递归展开”。然后，点击元素节点以检查该元素的属性。
-![Content.png]({{ "/assets/img/Elements-Tree.png" | absolute_url }})
+![Content.png]({{ "/assets/img/Elements-Tree.gif" | absolute_url }})
 
 **视图属性检查**
 
