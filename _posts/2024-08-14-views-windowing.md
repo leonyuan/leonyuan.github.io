@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 视力窗口化(Views Windowing)
+title: 视图窗口化(Views Windowing)
 ---
 
 Views 提供了通过 `Widget` 对象创建对话框和其他类型窗口的支持。开发者通过实现一个 `WidgetDelegate`（或其子接口），为窗口提供显示所需的信息，并提供窗口事件的回调通知。
