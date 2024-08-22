@@ -1,3 +1,8 @@
+---
+layout: post
+title: 在普通网页中通过JavaScript调用Chromium内部的C++函数
+---
+
 为了在远端 Web 服务器加载的网页中通过 JavaScript 调用 Chromium 浏览器中的 C++ 函数，您需要使用 V8 引擎 API 实现 JavaScript 和 C++ 的交互。此方案需要您在 Chromium 的渲染进程中注入自定义的 JavaScript 函数，然后将其绑定到 C++ 代码。
 
 ## 实现方案概述
