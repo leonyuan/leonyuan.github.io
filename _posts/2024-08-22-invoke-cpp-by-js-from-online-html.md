@@ -15,7 +15,7 @@ title: 在普通网页中通过JavaScript调用Chromium内部的C++函数
 
 ### 1.1 修改 `render_frame_impl.cc`
 
-在 `render_frame_impl.cc` 中使用 V8 API 暴露自定义的 JavaScript 函数。在 `RenderFrameImpl::DidCreateScriptContext` 方法中添加自定义 JavaScript 函数的绑定逻辑：
+在 `content/renderer/render_frame_impl.cc` 中使用 V8 API 暴露自定义的 JavaScript 函数：
 
 ```cpp
 #include "v8/include/v8.h"
@@ -37,6 +37,8 @@ void HelloWorldFunction(const v8::FunctionCallbackInfo<v8::Value>& args) {
 ```
 
 ## 2. **步骤 2：将暴露的函数绑定到 C++ 实现**
+
+在 `RenderFrameImpl::DidCreateScriptContext` 方法中添加自定义 JavaScript 函数的绑定逻辑：
 
 ```cpp
 void RenderFrameImpl::DidCreateScriptContext(v8::Local<v8::Context> context, int32_t world_id) {
